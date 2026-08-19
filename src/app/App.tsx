@@ -9,7 +9,7 @@ import {
   Ticket, ArrowUpCircle, ChevronRight, Target, Award, RefreshCw,
   Flag, Star, ListChecks, ChevronDown, Phone, Hash, CheckSquare,
   Upload, Link2, Paperclip, Building2, ImageIcon, ArrowLeft,
-  FileIcon, FileCheck, Percent, Briefcase
+  FileIcon, FileCheck, Percent, Briefcase, Menu
 } from "lucide-react";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
@@ -713,10 +713,14 @@ function MFAVerificationScreen({ email, onVerify, onBack }: {
 }
 
 // ─── Sidebar ────────────────────────────────────────────────────────────────
-function Sidebar({ view, setView, user, onLogout, unread, openTickets }: {
+function Sidebar({ view, setView, user, onLogout, unread, openTickets, isOpen, onClose }: {
   view:AppView; setView:(v:AppView) => void;
-  user:User; onLogout:() => void; unread:number; openTickets:number;
+  user:User; onLogout:() => void; unread:number; openTickets:number; isOpen?:boolean; onClose?:()=>void;
 }) {
+  const handleNavClick = (id: AppView) => {
+    setView(id);
+    if (onClose) onClose();
+  };
   const nav = [
     { id:"dashboard",     label:"Dashboard",      icon:LayoutDashboard, badge:0 },
     { id:"tenders",       label:"Tenders",         icon:FileText, badge:0 },
@@ -734,8 +738,8 @@ function Sidebar({ view, setView, user, onLogout, unread, openTickets }: {
     { id:"settings",      label:"Settings",        icon:Settings, badge:0 },
   ].filter(n => !n.hide);
 
-  return (
-    <div className="fixed left-0 top-0 h-full w-60 flex flex-col z-30" style={{ background:"#0d1b2a", borderRight:"1px solid rgba(255,255,255,0.06)" }}>
+  const sidebarContent = (
+    <div className="h-full w-full flex flex-col">
       <div className="px-5 py-5 flex items-center gap-3 border-b" style={{ borderColor:"rgba(255,255,255,0.06)" }}>
         <div className="w-8 h-8 bg-emerald-500 rounded-xl flex items-center justify-center shrink-0"><Shield className="w-4 h-4 text-white" /></div>
         <div><div className="text-white font-bold text-sm leading-tight">ZSecuredTech</div><div className="text-emerald-500 text-[10px] font-mono tracking-wider uppercase">Bid Management</div></div>
@@ -744,7 +748,7 @@ function Sidebar({ view, setView, user, onLogout, unread, openTickets }: {
         {nav.map(({ id, label, icon:Icon, badge }) => {
           const active = view === id;
           return (
-            <button key={id} onClick={() => setView(id as AppView)} className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-150 relative group ${active ? "text-emerald-400" : "text-slate-400 hover:text-slate-200"}`} style={{ background:active ? "rgba(5,150,105,0.12)" : "transparent" }}>
+            <button key={id} onClick={() => handleNavClick(id as AppView)} className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-150 relative group ${active ? "text-emerald-400" : "text-slate-400 hover:text-slate-200"}`} style={{ background:active ? "rgba(5,150,105,0.12)" : "transparent" }}>
               {active && <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-5 bg-emerald-400 rounded-r-full" />}
               <Icon className={`w-4 h-4 shrink-0 ${active ? "text-emerald-400" : "text-slate-500 group-hover:text-slate-300"}`} />
               <span className="flex-1 text-left">{label}</span>
@@ -765,13 +769,35 @@ function Sidebar({ view, setView, user, onLogout, unread, openTickets }: {
       </div>
     </div>
   );
+
+  // Desktop sidebar - always visible
+  if (!isOpen) {
+    return (
+      <div className="hidden md:fixed md:left-0 md:top-0 md:h-full md:w-60 md:flex md:flex-col md:z-30" style={{ background:"#0d1b2a", borderRight:"1px solid rgba(255,255,255,0.06)" }}>
+        {sidebarContent}
+      </div>
+    );
+  }
+
+  // Mobile sidebar - slide-out overlay
+  return (
+    <>
+      {/* Mobile overlay backdrop */}
+      <div className="fixed inset-0 bg-black/50 z-20 md:hidden" onClick={onClose} />
+      {/* Mobile sidebar drawer */}
+      <div className="fixed left-0 top-0 h-full w-60 flex flex-col z-30 md:hidden" style={{ background:"#0d1b2a", borderRight:"1px solid rgba(255,255,255,0.06)" }}>
+        {sidebarContent}
+      </div>
+    </>
+  );
 }
 
-function TopBar({ title, subtitle, user, onOpenAdmin }: { title:string; subtitle?:string; user?:User|null; onOpenAdmin?:()=>void }) {
+function TopBar({ title, subtitle, user, onOpenAdmin, onToggleSidebar }: { title:string; subtitle?:string; user?:User|null; onOpenAdmin?:()=>void; onToggleSidebar?:()=>void }) {
   return (
-    <div className="h-16 bg-card border-b border-border flex items-center px-8 sticky top-0 z-20">
-      <div className="flex-1"><h1 className="text-base font-bold text-foreground leading-none">{title}</h1>{subtitle && <p className="text-xs text-muted-foreground mt-0.5 font-mono">{subtitle}</p>}</div>
-      {(user && (user.role === 'admin' || user.role === 'ceo')) && <div className="ml-4"><button onClick={onOpenAdmin} className="px-2 py-1 bg-background border rounded text-xs">Admin</button></div>}
+    <div className="h-16 bg-card border-b border-border flex items-center px-4 md:px-8 sticky top-0 z-20">
+      <button onClick={onToggleSidebar} className="md:hidden mr-4 p-2 hover:bg-muted rounded-lg"><Menu className="w-5 h-5" /></button>
+      <div className="flex-1 min-w-0"><h1 className="text-sm md:text-base font-bold text-foreground leading-none truncate">{title}</h1>{subtitle && <p className="text-xs text-muted-foreground mt-0.5 font-mono truncate">{subtitle}</p>}</div>
+      {(user && (user.role === 'admin' || user.role === 'ceo')) && <div className="ml-2 md:ml-4"><button onClick={onOpenAdmin} className="px-2 py-1 bg-background border rounded text-xs">Admin</button></div>}
     </div>
   );
 }
@@ -3289,6 +3315,7 @@ export default function App() {
   const [adminOpen, setAdminOpen] = useState(false);
   const [selTender, setSelTender] = useState<Tender|null>(null);
   const [editTender, setEditTender] = useState<Tender|null|"new">(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => { LS.set("zst_users",   users); },   [users]);
   useEffect(() => { LS.set("zst_tenders", tenders); }, [tenders]);
@@ -3595,9 +3622,9 @@ export default function App() {
   return (
     <div className="min-h-screen bg-background">
       <Toaster position="top-right" richColors />
-      <Sidebar view={view} setView={setView} user={currentUser} onLogout={handleLogout} unread={unread} openTickets={openTickets} />
-      <div className="ml-60 min-h-screen flex flex-col">
-        <TopBar title={titles[view]} subtitle={subtitles[view]} user={currentUser} onOpenAdmin={()=>setAdminOpen(true)} />
+      <Sidebar view={view} setView={setView} user={currentUser} onLogout={handleLogout} unread={unread} openTickets={openTickets} isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
+      <div className="md:ml-60 min-h-screen flex flex-col">
+        <TopBar title={titles[view]} subtitle={subtitles[view]} user={currentUser} onOpenAdmin={()=>setAdminOpen(true)} onToggleSidebar={() => setSidebarOpen(!sidebarOpen)} />
         <Dialog open={adminOpen} onOpenChange={setAdminOpen}>
           <DialogContent>
             <DialogHeader>
@@ -3607,7 +3634,7 @@ export default function App() {
             <AdminCreateForm onClose={()=>setAdminOpen(false)} currentUser={currentUser} />
           </DialogContent>
         </Dialog>
-        <main className="flex-1">
+        <main className="flex-1 overflow-x-hidden">
           {view === "dashboard" && isExecutive(currentUser) && <ExecutiveDashboard tenders={tenders} users={users} audit={audit} user={currentUser} />}
           {view === "dashboard" && !isExecutive(currentUser) && <MyWorkDashboard tenders={tenders} user={currentUser} users={users} projectTasks={projectTasks} projects={projects} onViewTender={t => { setSelTender(t); setView("tenders"); }} onProgressUpdate={(t,note,pct) => handleProgressUpdate(t,note,pct)} />}
           {view === "tenders"   && <TendersView tenders={tenders} user={currentUser} users={users} onView={setSelTender} onEdit={t => setEditTender(t)} onApprove={handleApprove} onReject={handleReject} onAdd={() => setEditTender("new")} />}
