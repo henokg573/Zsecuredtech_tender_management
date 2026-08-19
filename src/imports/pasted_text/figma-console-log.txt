@@ -1,0 +1,225 @@
+[Intervention] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/css/fonts/AdobeClean-Regular.otf
+express-utils.js:18 [Intervention] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/css/fonts/AdobeClean-Bold.otf
+ Running frontend commit 15f705048e61fc13569c51bde72611293ddc559f
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 Statsig is not ready to log exposures, will retry in 1 seconds
+(anonymous) @ vendor-core-8ea0a2f14f18cecd.min.js.br:54
+(anonymous) @ 4952-ceb0aeade66bdbf3.min.js.br:1304
+u @ vendor-core-8ea0a2f14f18cecd.min.js.br:54
+browser-intake-datadoghq.com/api/v2/rum:1  Failed to load resource: the server responded with a status of 403 (Forbidden)
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [import] git: 15f705048e61fc13569c51bde72611293ddc559f, stamp: 25FC332D65EC98FB
+4952-ceb0aeade66bdbf3.min.js.br:148 [Intervention] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://static.figma.com/webfont/1/SourceCodePro-Medium.woff2
+6The powerPreference option is currently ignored when calling requestAdapter() on Windows. See <URL>
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 Autosave Changes not available or already claimed by another tab undefined
+10No available adapters.
+/make/RHFvo1dGBvHuFn…MS00jUpvOcMBjUn-0:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 Loaded 52 scripts (6805545b), 52 from cache (6805545b)
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [Fullscreen] Booting... (emscripten version 4.0.21)
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [GPU] graphicsAPI:"WebGL 2", vendor:"Google Inc. (Intel)", renderer:"ANGLE (Intel, Intel(R) HD Graphics 4000 (0x00000162) Direct3D11 vs_5_0 ps_5_0, D3D11)" version:"OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))"
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [Fullscreen] Ready in 6814.0ms
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [FullscreenApp] calling setEditorTheme and setting preference light
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [MultiplayerSession] connecting to wss://www.figma.com/api/multiplayer/RHFvo1dGBvHuFnODAZxvMy?role=editor&tracking_session_id=RvkwD120Zdnt9Nvl&version=198&recentReload=0&file-load-streaming-compression=&user-id=1586924858231078607&client_release=15f705048e61fc13569c51bde72611293ddc559f&previousLoadMode=full&reconnect-key=9e254a1c-ef5a-4b51-ba29-7de46eeeb0ff&reconnect-sequence-number=90&initialFileVersion=101&force-dpl-journaled-reconnect=1
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [MultiplayerSession] Joining file version 101 (skip_reload reconnect)
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [FullscreenApp] calling setEditorTheme and setting preference light
+vendor-core-8ea0a2f14f18cecd.min.js.br:63 [Violation] Permissions policy violation: unload is not allowed in this document.
+(anonymous) @ vendor-core-8ea0a2f14f18cecd.min.js.br:63
+(anonymous) @ vendor-core-8ea0a2f14f18cecd.min.js.br:54
+(anonymous) @ 1325-34fdce2d1a74e0d6.min.js.br:6
+aB @ vendor-core-8ea0a2f14f18cecd.min.js.br:11
+oD @ vendor-core-8ea0a2f14f18cecd.min.js.br:11
+oL @ vendor-core-8ea0a2f14f18cecd.min.js.br:11
+f5 @ vendor-core-8ea0a2f14f18cecd.min.js.br:11
+(anonymous) @ vendor-core-8ea0a2f14f18cecd.min.js.br:11
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_transition
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_emitted
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [Fullscreen] loadtime=13.77s maxmem=8565964
+/api/source/v1/make/environment/RHFvo1dGBvHuFnODAZxvMy?guid=0%3A6:1  Failed to load resource: the server responded with a status of 403 ()
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [devtools] Initialized LS
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_emitted
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_transition
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.bundle_cached_preview_branch
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_transition
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [devtools] Initialized LS
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_transition
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_emitted
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.set_buffered_entrypoint
+2vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.promote_buffered_to_active
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/tenders?select=*&order=created_at.desc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/tenders?select=*&order=created_at.desc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/tenders?select=*&order=created_at.desc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&order=name.asc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&order=name.asc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&order=name.asc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/app_config?select=*:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/app_config?select=*:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/app_config?select=*:1  Failed to load resource: the server responded with a status of 500 ()
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+5Advanced-Tender-Mana…MS00jUpvOcMBjUn-0:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+ WebSocket connection to 'wss://app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/' failed: 
+ping @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1035
+waitForSuccessfulPing @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1054
+handleMessage @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:968
+ WebSocket connection to 'wss://app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/' failed: 
+ping @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1035
+waitForSuccessfulPing @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1054
+handleMessage @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:968
+ WebSocket connection to 'wss://app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/' failed: 
+ping @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1035
+waitForSuccessfulPing @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1054
+handleMessage @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:968
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_emitted
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_transition
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_emitted
+2vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.buffering_toast_requested
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.buffering_toast_shown
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_transition
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_transition
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [MultiplayerSession] connecting to wss://www.figma.com/api/multiplayer/RHFvo1dGBvHuFnODAZxvMy?role=editor&tracking_session_id=RvkwD120Zdnt9Nvl&version=198&recentReload=0&file-load-streaming-compression=&user-id=1586924858231078607&client_release=15f705048e61fc13569c51bde72611293ddc559f&previousLoadMode=full&reconnect-key=9e254a1c-ef5a-4b51-ba29-7de46eeeb0ff&reconnect-sequence-number=94&initialFileVersion=101&incremental-loading-validation=0&force-dpl-journaled-reconnect=1
+ WebSocket connection to 'wss://app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/' failed: 
+ping @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1035
+waitForSuccessfulPing @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1060
+ WebSocket connection to 'wss://app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/' failed: 
+ping @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1035
+waitForSuccessfulPing @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1060
+ WebSocket connection to 'wss://app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/' failed: 
+ping @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1035
+waitForSuccessfulPing @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1060
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_transition
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_emitted
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.set_buffered_entrypoint
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [MultiplayerSession] Joining file version 101 (journaled reconnect)
+ WebSocket connection to 'wss://app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/' failed: 
+ping @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1035
+waitForSuccessfulPing @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1060
+ WebSocket connection to 'wss://app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/' failed: 
+ping @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1035
+waitForSuccessfulPing @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1060
+ WebSocket connection to 'wss://app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/' failed: 
+ping @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1035
+waitForSuccessfulPing @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1060
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+ WebSocket connection to 'wss://app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/' failed: 
+ping @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1035
+waitForSuccessfulPing @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1060
+ WebSocket connection to 'wss://app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/' failed: 
+ping @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1035
+waitForSuccessfulPing @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1060
+ WebSocket connection to 'wss://app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/' failed: 
+ping @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1035
+waitForSuccessfulPing @ app-qynrhhka55gpgvmvomxqlp2lourx7te4ouwwglvafh63zjrn22ye.makeproxy-c.figma.site/@vite/client:1060
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.reload_promotes_buffer
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.promote_buffered_to_active
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.completed_toast_shown
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/auth/v1/logout?scope=global:1  Failed to load resource: the server responded with a status of 403 ()
+pzvxizrqnpgzqgizjbds.supabase.co/auth/v1/logout?scope=global:1  Failed to load resource: the server responded with a status of 403 ()
+pzvxizrqnpgzqgizjbds.supabase.co/auth/v1/logout?scope=global:1  Failed to load resource: the server responded with a status of 403 ()
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/app_config?select=*:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/app_config?select=*:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/app_config?select=*:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/tenders?select=*&order=created_at.desc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/tenders?select=*&order=created_at.desc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/tenders?select=*&order=created_at.desc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&order=name.asc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&order=name.asc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&order=name.asc:1  Failed to load resource: the server responded with a status of 500 ()
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] preview.console_error
+(anonymous) @ vendor-core-8ea0a2f14f18cecd.min.js.br:54
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_emitted
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.reload_active_iframe
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] sandbox_manager.sandbox_state_emitted
+2vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/functions/v1/make-server-e7ccbfc7/check-setup:1  Failed to load resource: the server responded with a status of 404 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+vendor-core-8ea0a2f14f18cecd.min.js.br:54 [make] iframe_buffer_manager.sandbox_state_effect
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&id=eq.0778eb87-44e1-4ea4-8093-350a80175b6d:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&order=name.asc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&order=name.asc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/profiles?select=*&order=name.asc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/app_config?select=*:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/app_config?select=*:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/app_config?select=*:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/tenders?select=*&order=created_at.desc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/tenders?select=*&order=created_at.desc:1  Failed to load resource: the server responded with a status of 500 ()
+pzvxizrqnpgzqgizjbds.supabase.co/rest/v1/tenders?select=*&order=created_at.desc:1  Failed to load resource: the server responded with a status of 500 ()
+ [Make] Blank preview detected: Your app rendered no content.
+
+This typically happens when:
+1. The component returns null, undefined, or an empty fragment
+2. A conditional render (e.g., `condition && <Component />`) evaluated to false
+3. The component threw an error during render that was silently caught
+4. Required props are missing or have unexpected values
+
+To fix this:
+- Check that your component's return statement returns valid JSX
+- Verify all conditional renders have fallback content
+- Ensure required props are being passed correctly
+- Check the console for any other errors that may have occurred
