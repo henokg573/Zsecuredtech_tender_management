@@ -11,7 +11,8 @@
       "dest": "/"
     }
   ],
-  "buildCommand": "npm install && npm run build",
-  "installCommand": "npm install",
-  "nodeVersion": "20.x"
+  "buildCommand": "npm install && npx vite build",
+  "installCommand": "npm install --legacy-peer-deps",
+  "nodeVersion": "20.x",
+  "outputDirectory": "dist"
 }
