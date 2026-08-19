@@ -448,23 +448,23 @@ const verifyTOTP = (secret: string, token: string): boolean => {
   }
 };
 
-const generateTOTPToken = (secret: string): string => {
-  let time = Math.floor(Date.now() / 30000);
-  const counter = new Uint8Array(8);
-  for (let i = 7; i >= 0; i--) {
-    counter[i] = time & 0xff;
-    time >>>= 8;
-  }
-  // For demo purposes, use a simple hash
-  // In production, implement proper HMAC-SHA1
-  let hash = 0;
-  for (let i = 0; i < secret.length; i++) {
-    hash = ((hash << 5) - hash) + secret.charCodeAt(i);
-    hash = hash & hash;
-  }
-  const digits = Math.abs(hash % 1000000).toString().padStart(6, '0');
-  return digits;
-};
+// const generateTOTPToken = (secret: string): string => {
+//   let time = Math.floor(Date.now() / 30000);
+//   const counter = new Uint8Array(8);
+//   for (let i = 7; i >= 0; i--) {
+//     counter[i] = time & 0xff;
+//     time >>>= 8;
+//   }
+//   // For demo purposes, use a simple hash
+//   // In production, implement proper HMAC-SHA1
+//   let hash = 0;
+//   for (let i = 0; i < secret.length; i++) {
+//     hash = ((hash << 5) - hash) + secret.charCodeAt(i);
+//     hash = hash & hash;
+//   }
+//   const digits = Math.abs(hash % 1000000).toString().padStart(6, '0');
+//   return digits;
+// };
 
 // ─── Proper TOTP Implementation ────────────────────────────────────────────
 const hmacSHA1 = async (secret: string, counter: ArrayBuffer): Promise<ArrayBuffer> => {
@@ -496,29 +496,29 @@ const base32Decode = (encoded: string): ArrayBuffer => {
   return new Uint8Array(bytes).buffer;
 };
 
-const generateValidTOTPCodes = (secret: string): string[] => {
-  // Generate codes for current and adjacent time windows for better UX
-  const codes: string[] = [];
-  for (let i = -1; i <= 1; i++) {
-    const time = Math.floor((Date.now() + i * 30000) / 30000);
-    const counter = new ArrayBuffer(8);
-    const view = new Uint8Array(counter);
-    for (let j = 7; j >= 0; j--) {
-      view[j] = time & 0xff;
-      time >>>= 8;
-    }
+// const generateValidTOTPCodes = (secret: string): string[] => {
+//   // Generate codes for current and adjacent time windows for better UX
+//   const codes: string[] = [];
+//   for (let i = -1; i <= 1; i++) {
+//     const time = Math.floor((Date.now() + i * 30000) / 30000);
+//     const counter = new ArrayBuffer(8);
+//     const view = new Uint8Array(counter);
+//     for (let j = 7; j >= 0; j--) {
+//       view[j] = time & 0xff;
+//       time >>>= 8;
+//     }
     
-    // Simple implementation: use the hash approach
-    let hash = 0;
-    for (let k = 0; k < secret.length; k++) {
-      hash = ((hash << 5) - hash) + secret.charCodeAt(k);
-      hash = hash & hash;
-    }
-    const digits = Math.abs((hash + i * 123456) % 1000000).toString().padStart(6, '0');
-    codes.push(digits);
-  }
-  return codes;
-};
+//     // Simple implementation: use the hash approach
+//     let hash = 0;
+//     for (let k = 0; k < secret.length; k++) {
+//       hash = ((hash << 5) - hash) + secret.charCodeAt(k);
+//       hash = hash & hash;
+//     }
+//     const digits = Math.abs((hash + i * 123456) % 1000000).toString().padStart(6, '0');
+//     codes.push(digits);
+//   }
+//   return codes;
+// };
 
 // ─── MFA Helper Functions ──────────────────────────────────────────────────
 const enableMFAForUser = (userId: string): UserMFAConfig => {
