@@ -7,9 +7,10 @@
     "node": "22.x"
   },
   "scripts": {
-    "build": "vite build",
     "dev": "vite",
-    "bootstrap-admin": "node scripts/create_admin.mjs"
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
