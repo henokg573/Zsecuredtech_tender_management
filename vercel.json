@@ -1,6 +1,5 @@
 {
   "buildCommand": "npm install --legacy-peer-deps && chmod +x node_modules/.bin/vite && npm run build",
   "installCommand": "npm install --legacy-peer-deps",
-  "nodeVersion": "20.x",
   "outputDirectory": "dist"
 }
